@@ -1,0 +1,39 @@
+.blog-list {
+  margin-top: 20px;
+}
+
+.blog-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.blog-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.blog-card h3 {
+  margin: 10px 0;
+}
+
+.blog-card p {
+  color: #555;
+}
+
+.blog-card a {
+  color: #333;
+  text-decoration: none;
+}
+
+.blog-card a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .blog-card {
+    padding: 10px;
+  }
+}
